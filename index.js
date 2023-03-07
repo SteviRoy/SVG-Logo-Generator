@@ -56,7 +56,7 @@ inquirer
     const Shape = shapes.find((s) => s.name === shape);
 
     // Create a new shape instance with the chosen shape and fixed width and height
-    const shapeInstance = new Shape(shape, 300, 200);
+    const shapeInstance = new Shape(shape, 300, 300);
 
     // Create a new Logo instance with the user's chosen text, text color, shape instance, and shape color
     const logo = new Logo(text, textColor, shapeInstance, shapeColor);

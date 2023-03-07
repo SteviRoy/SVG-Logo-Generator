@@ -1,0 +1,10 @@
+<svg style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+      <g fill="LIME">
+        <svg xmlns="http://www.w3.org/2000/svg" width="300" height="259.8076211353316">
+      <polygon points="0,259.8076211353316 300,259.8076211353316 150,0"/>
+    </svg>
+      </g>
+      <g fill="black">
+        <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" fill="black" font-family="New york times" font-weight="bold" font-size="50" dy="0.1em">WWW</text>
+      </g>
+    </svg>
