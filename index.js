@@ -34,4 +34,15 @@ inquirer
         "Enter the shape color as a CSS color keyword or hexadecimal color value:",
       default: "white",
     },
-  ]);
+  ])
+  .then(({ text, textColor, shape, shapeColor }) => {
+    const Shape = shapes.find((s) => s.name === shape);
+    const shapeInstance = new Shape(shape, 300, 200);
+    const logo = new Logo(text, textColor, shapeInstance, shapeColor);
+    const svg = logo.generate();
+    fs.writeFileSync("examples/logo.svg", svg);
+    console.log("Generated logo.svg");
+  })
+  .catch((err) => {
+    console.error(err);
+  }); 
