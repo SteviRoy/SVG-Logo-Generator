@@ -17,11 +17,11 @@ The SVG Logo Generator is a command-line application that allows users to create
 
 ## Installation
 
-To install the SVG Logo Generator, first ensure that you have Node.js installed on your system. Then, clone the repository and run npm install to install the required dependencies.
+To install the SVG Logo Generator, first ensure that you have Node.js installed on your system. Then, clone the repository and run `npm i` to install the required dependencies.
 
 ## Usage
 
-To use the SVG Logo Generator, navigate to the project directory and run node index.js. Follow the prompts to select a shape, color, and text for your logo. Once you have entered all of the required information, an SVG file will be generated in the `examples` directory.
+To use the SVG Logo Generator, navigate to the project directory and run `node index.js`. Follow the prompts to select a shape, color, and text for your logo. Once you have entered all of the required information, an SVG file will be generated in the `examples` directory.
 
 ## Contributions
 
